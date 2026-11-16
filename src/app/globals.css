@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --accent: #00d8ff;
+  --accent-soft: rgba(0, 216, 255, 0.14);
+  --accent-glow: rgba(0, 216, 255, 0.35);
+  --accent-fg: #09090b;
+  --accent-text: #00d8ff;
+}
+
+body {
+  background-color: #09090b;
+  color: #f4f4f5;
+  font-feature-settings: "tnum" on, "lnum" on;
+}
+
+.manga-surface {
+  background-color: #f4f4f5 !important;
+  color: #09090b !important;
+}
